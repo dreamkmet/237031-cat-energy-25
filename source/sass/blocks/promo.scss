@@ -1,0 +1,39 @@
+.promo {
+  background-color: $basic-white;
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+  }
+}
+
+.promo__background {
+  margin: 0 auto;
+  background-image: url("../../img/promo-background.svg"),
+    url("../../img/promo-cat.png");
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+      background: none;
+  }
+}
+
+.promo__container {
+  position: relative;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 235px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

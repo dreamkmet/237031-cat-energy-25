@@ -1,0 +1,16 @@
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+
+  background-color: $basic-white;
+}
